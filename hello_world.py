@@ -9,3 +9,9 @@ directory=["headquarters", "hotel", "hosptial", "house", "hotdog"]
 
 for building in directory:
 	print building
+
+fib=[1,2]
+first=fib[0]
+second=fib[1]
+
+
