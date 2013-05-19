@@ -12,7 +12,7 @@ for building in directory:
 
 
 
-fib=[4,8,12]
+fib=[1,2]
 last=fib[-1]
 second_to_last=fib[-2]
 
