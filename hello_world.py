@@ -12,9 +12,11 @@ for building in directory:
 
 fib=[1,2]
 
-while len(fib) < 100:
-	last=fib[-1]
-	second_to_last=fib[-2]
-	fib.append(last+second_to_last)
+def function_fib():
+	while len(fib) < 100:
+		last=fib[-1]
+		second_to_last=fib[-2]
+		fib.append(last+second_to_last)
 	return fib
-print fib
+
+print function_fib()
