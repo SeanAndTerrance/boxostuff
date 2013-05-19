@@ -10,12 +10,10 @@ directory=["headquarters", "hotel", "hosptial", "house", "hotdog"]
 for building in directory:
 	print building
 
-
-
 fib=[1,2]
-last=fib[-1]
-second_to_last=fib[-2]
 
 while len(fib) < 100:
+	last=fib[-1]
+	second_to_last=fib[-2]
 	fib.append(last+second_to_last)
 	print fib
