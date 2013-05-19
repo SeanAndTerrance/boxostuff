@@ -14,4 +14,5 @@ fib=[1,2]
 first=fib[0]
 second=fib[1]
 
-
+fib.append(first+second)
+print fib
