@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # def main ():
 # 	print "Welcome"
 # 	print "1 - Add Event"
@@ -6,13 +8,7 @@
 # 	print "4 - Exit Program"
 
 while True:
-	# print "Welcome"
-	# print "1 - Add Event"
-	# print "2 - Search for Event"
-	# print "3 - Remove Event"
-	# print "4 - Exit Program"
-
-  placeholdervariable = raw_input("Enter 1-4 or fuck off")
+	placeholdervariable = raw_input("Enter 1-4 or fuck off")
 
 	if placeholdervariable == 1:
 		sys.exit()
